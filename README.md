@@ -5,7 +5,7 @@
 - Логика управления написана для контроллера KRAX PLC-932
 - Визуализация написана на python3+PyQt5
 
-![Снимок экрана](http://github.com/vlinnik/ip_250411/screenshot.png)
+![Снимок экрана](https://github.com/vlinnik/ip_250411/main/screenshot.png)
 
 # Запуск
 
