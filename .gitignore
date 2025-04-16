@@ -1,0 +1,6 @@
+.pybuild
+build
+debhelper-build-stamp
+python3-*
+*.egg-info
+__pycache__
