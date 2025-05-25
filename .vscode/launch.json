@@ -13,11 +13,26 @@
             "env": {"PYTHONPYCACHEPREFIX":"${workspaceFolder}/__pycache__"}
         },
         {
-            "name": "Python Debugger: Module",
+            "name": "Simulator",
             "type": "debugpy",
             "request": "launch",
             "module": "gui",
             "args": ["--simulator"],
+            "env": {"PYTHONPYCACHEPREFIX":"${workspaceFolder}/__pycache__"}
+        },
+        {
+            "name": "Release",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "gui",
+            "env": {"PYTHONPYCACHEPREFIX":"${workspaceFolder}/__pycache__"}
+        },
+        {
+            "name": "Over WiFi",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "gui",
+            "args": ["--device","192.168.4.1"],
             "env": {"PYTHONPYCACHEPREFIX":"${workspaceFolder}/__pycache__"}
         }
     ]
