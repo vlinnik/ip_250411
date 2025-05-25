@@ -1342,6 +1342,44 @@ a:active {
     <string>danger</string>
    </property>
   </widget>
+  <widget class="QLabel" name="scantime">
+   <property name="geometry">
+    <rect>
+     <x>1081</x>
+     <y>840</y>
+     <width>66</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>000</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>sys</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="powered">
+   <property name="geometry">
+    <rect>
+     <x>1081</x>
+     <y>862</y>
+     <width>66</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>000</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="style" stdset="0">
+    <string>sys</string>
+   </property>
+  </widget>
   <zorder>elevator_below_1</zorder>
   <zorder>label_2</zorder>
   <zorder>rain_9</zorder>
@@ -1391,6 +1429,8 @@ a:active {
   <zorder>rain_8</zorder>
   <zorder>emergency</zorder>
   <zorder>emergency_2</zorder>
+  <zorder>scantime</zorder>
+  <zorder>powered</zorder>
  </widget>
  <customwidgets>
   <customwidget>
